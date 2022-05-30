@@ -1,0 +1,165 @@
+Name: Abubakar iftikhar
+Roll Number: BSEF19M042
+
+
+PROJECT NAME: Online Book Shop
+Answer 1:
+ 
+CLASS 1
+Public class Register()
+{
+Static Private int id =0;
+Private string Mail;
+Private string Code;
+Private string FirstName;
+Private string LastName ;
+Private date DOB;
+Public void getRegister() {…}
+Public void  AddDetails(int id) {…}
+}
+ 
+CLASS 2 
+ Public  class Book{
+Private string Book_Name;
+Private string Book_Title ;
+Private double Book_Price;
+Private bool Availability;
+
+}
+CLASS 3
+Public class searchBook{
+Public string nameOfBook;
+Public void DisplayResult(item ID) {…}
+Public void DisplayResult(Item Name) {…}
+}
+CLASS 4
+ 
+
+Public class buyer{
+Public Register();
+Public void updateCode(int ID) {…}
+Public void forgetCode(int ID) {…}
+Public void ShowDetails() {…}
+Public bool sellerMode() {…}
+Public searchBook() {…}
+
+ 
+CLASS 5
+ 
+Public class seller 
+{
+Private int sellerID;
+Public void AddNewBook() {…};
+Public void updateExistingBook (int bookID) {…};
+Public void deleteBook(int bookID) {…}/n;
+ }
+
+
+CLASS 6
+Public class message{
+Private string textMessage;
+Private int senderID;
+Public void sendMessage(){…}/n;
+}
+CLASS 7
+Public class login{
+Private string email;
+Private string password;
+Public void loginPortal(){…};
+}
+
+CLASS 8
+Public class savedTemplate{
+Private string templates;
+Public showMessageTemplates(){…};
+}
+  
+Answer 2:
+
+Public void getRegister{
+id= 0;
+ 
+
+Cout<<”Enter Email: ”;
+Cin>>email;
+ 
+Cout<<”Enter Password: ”/n;
+Cin>>Password;
+ 
+Cout<<”Enter First Name:  ”/n;
+Cin>>FirstName;
+ 
+Cout<<”Enter Last Name:  ”/n;
+Cin>>LastName;
+ 
+Cout<<”Enter Date of Birth(Month/Day/Year):  ”/n;
+Cin>>DOB;
+ 
+Cout<<”Enter Phone Number:  ”/n;
+Cin>>PhoneNo;
+}
+ 
+ 
+Public void loginPortal{
+
+Email=getUserEmail;
+
+Password=getUserPassword;
+
+If (email=email.Database &&password=password.Database)
+{ ..}
+Else
+{ ..}
+}
+
+ 
+Public void fetchDetails(int id)
+{...}
+Public void updatePassword(int ID)
+{.... }
+Public void phoneNo(int ID) {...} 
+Public void forgetPassword(int ID)
+
+{...} 
+
+Public void displayDetails() {...}
+
+Public bool sellerMode()
+
+{...} 
+
+Public searchBook()
+
+{...} 
+
+Public void DisplayResult(item ID)
+
+{...} 
+
+Public void updateExistingBook (int bookID) 
+
+{...} 
+
+Public void deleteBook(int bookID) 
+
+{...} 
+
+ 
+Public void sendMessage() {...} 
+ 
+Public void AlertForNewMessage() {...} 
+};
+Public void showMessageTemplates()
+
+{...} 
+
+ Answer 3:
+
+
+
+Exceptions that we can face are:
+
+*Array index out of bound exception 
+* Duplications in the unique column          “ID” in the database
+*Connection to database failure.
+*Arithmetic exception
